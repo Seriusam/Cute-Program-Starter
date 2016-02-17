@@ -1,3 +1,4 @@
+package cuteProgramStarter;
 /*
  * Written By Fatih AKTAŞ
  * 
@@ -23,8 +24,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-
-package cuteProgramStarter;
 
 import java.awt.Container;
 import java.awt.Dimension;
@@ -57,6 +56,8 @@ public class MainFrame extends JFrame {
 		sitBar.setLocation(10, 60);
 		sitBar.setSize(100,20);
 		sitBar.setBackground(null);
+		sitBar.setBorder(null);
+		sitBar.setEditable(false);
 		
 		pane.add(sitBar);
 		
@@ -84,7 +85,7 @@ public class MainFrame extends JFrame {
 						}
 					}	
 					
-					//*********************************
+					//****************************************************************
 				}
 				
 				public void loadFinished(){
@@ -103,9 +104,17 @@ public class MainFrame extends JFrame {
 				public void barMin(int i ){
 					bar.setMinimum(i);
 				}
+				
+				public void textUpdate(String str){
+					sitBar.setText(str);
+				}
 		});
 		
 		//Starts the thread of the bar
 		barLoader.start();
+	}
+	
+	public static void main(String[] args){
+		MainFrame loader = new MainFrame();
 	}
 }
