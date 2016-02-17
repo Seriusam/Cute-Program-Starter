@@ -38,6 +38,7 @@ public class MainFrame extends JFrame {
 	public JTextField sitBar = new JTextField();
 	
 	public MainFrame(){
+		//His
 		setUndecorated(true);
 		setSize(new Dimension(250,100));
 		setLocation(Toolkit.getDefaultToolkit().getScreenSize().width/2-125, Toolkit.getDefaultToolkit().getScreenSize().height/2-50);
