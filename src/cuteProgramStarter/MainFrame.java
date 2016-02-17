@@ -36,7 +36,7 @@ import javax.swing.JTextField;
 public class MainFrame extends JFrame {
 	public JProgressBar bar = new JProgressBar(0,100);
 	public JTextField sitBar = new JTextField();
-	
+	//test
 	public MainFrame(){
 		setUndecorated(true);
 		setSize(new Dimension(250,100));
