@@ -42,7 +42,7 @@ public class MainFrame extends JFrame {
 		setSize(new Dimension(250,100));
 		setLocation(Toolkit.getDefaultToolkit().getScreenSize().width/2-125, Toolkit.getDefaultToolkit().getScreenSize().height/2-50);
 		setVisible(true);
-		//
+		//asd
 		Container pane = getContentPane();
 		pane.setLayout(null);
 		
