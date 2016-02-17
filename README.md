@@ -7,7 +7,7 @@ This is a classicly cute program initiliazer to help you start your programs mor
  - Write what it should do in order to load your own program
  - Enjoy!
 
-Don not forget to write the process of the loader under the function below.
+Do not forget to write the process of the loader under the function below.
 
 ```
 	loaderProcess()
