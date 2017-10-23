@@ -14,10 +14,9 @@ Do not forget to write the process of the loader under the function below.
 ```
 
 ##Note
- - The program is still under develop.
+ - The program is still under development.
  - Send me an e-mail, if you have a problem.
 
 I hope you enjoy it.
 
-Thank you,
-Fatih AKTAS
+Thank you
